@@ -62,20 +62,20 @@ nav button {
   padding: 0 30px;
 }
 
-.hero> :nth-child(1) {
+.hero > :nth-child(1) {
   font-family: "Poppins", sans-serif;
   font-weight: bolder;
   font-size: 48px;
   text-align: center;
 }
 
-.hero> :nth-child(2) {
+.hero > :nth-child(2) {
   font-weight: 400;
   font-size: 24px;
   text-align: center;
 }
 
-.hero> :nth-child(3) {
+.hero > :nth-child(3) {
   font-weight: 400;
   font-size: 20px;
   text-align: center;
@@ -164,4 +164,38 @@ section.first > div {
 section.first > div :nth-child(1) {
   font-size: 48px;
   font-weight: bolder;
+}
+section.first > div :nth-child(2) {
+  font-size: 24px;
+}
+
+.faq h2 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.faq {
+  background: black;
+  color: white;
+  padding: 34px;
+}
+
+.faqbox:hover {
+  background-color: #414141;
+  color: white;
+}
+
+.faqbox svg {
+  filter: invert(1);
+}
+.faqbox {
+  transition: all 1s ease-out;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+  padding: 24px;
+  max-width: 60vw;
+  margin: 34px auto;
+  cursor: pointer;
 }
