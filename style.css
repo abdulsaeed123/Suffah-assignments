@@ -78,3 +78,32 @@ nav button {
     font-size: 20px;
     text-align: center;
   }
+  .sepration {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+  }
+  
+  .btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: rgba(248, 243, 243, 0.021);
+  }
+  
+  .btn-red {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 3px 24px;
+    border-radius: 4px;
+    font-weight: 400;
+  }
+  .btn-red-sm {
+    background-color: red;
+    color: white;
+  }
