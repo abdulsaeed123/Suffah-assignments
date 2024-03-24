@@ -130,7 +130,8 @@ nav button {
 
 .first {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
   justify-content: center;
   max-width: 70vw;
   margin: auto;
@@ -203,7 +204,7 @@ footer {
   color: white;
   max-width: 60vw;
   margin: auto;
-  padding: 60px;
+  padding: 12px;
 }
 
 footer .questions {
